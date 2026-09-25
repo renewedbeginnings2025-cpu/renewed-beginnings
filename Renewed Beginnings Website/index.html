@@ -1,0 +1,1141 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red109\green109\blue109;\red255\green255\blue254;\red251\green0\blue7;
+\red0\green0\blue0;\red42\green42\blue42;\red107\green0\blue1;\red0\green0\blue255;\red15\green112\blue1;
+\red19\green118\blue70;\red144\green1\blue18;\red9\green60\blue148;}
+{\*\expandedcolortbl;;\cssrgb\c50196\c50196\c50196;\cssrgb\c100000\c100000\c99608;\cssrgb\c100000\c0\c0;
+\cssrgb\c0\c0\c0;\cssrgb\c21961\c21961\c21961;\cssrgb\c50196\c0\c0;\cssrgb\c0\c0\c100000;\cssrgb\c0\c50196\c0;
+\cssrgb\c3529\c52549\c34510;\cssrgb\c63922\c8235\c8235;\cssrgb\c1569\c31765\c64706;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE\cf4 \strokec4  html\cf2 \strokec2 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 html\cf0 \strokec5  \cf4 \strokec4 lang\cf6 \strokec6 =\cf8 \strokec8 "en"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "scroll-smooth"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3   \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 charset\cf6 \strokec6 =\cf8 \strokec8 "UTF-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "viewport"\cf0 \strokec5  \cf4 \strokec4 content\cf6 \strokec6 =\cf8 \strokec8 "width=device-width, initial-scale=1.0"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \strokec5 Renewed Beginnings | Clothing \'95 Confidence \'95 Renewed Purpose\cf6 \strokec6 </\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cb1 \
+\cb3   \cf9 \strokec9 <!-- Google Fonts & FontAwesome -->\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "preconnect"\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://fonts.googleapis.com"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "preconnect"\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://fonts.gstatic.com"\cf0 \strokec5  \cf4 \strokec4 crossorigin\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@300;400;500;600;700;800&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap"\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "stylesheet"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "stylesheet"\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cb1 \
+\cb3   \cf9 \strokec9 <!-- Tailwind CSS CDN -->\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://cdn.tailwindcss.com"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     tailwind.config = \{\cb1 \
+\cb3       theme: \{\cb1 \
+\cb3         extend: \{\cb1 \
+\cb3           colors: \{\cb1 \
+\cb3             brandBlue: \{\cb1 \
+\cb3               \cf10 \strokec10 50\cf0 \strokec5 : \cf11 \strokec11 '#f0f6fa'\cf0 \strokec5 ,\cb1 \
+\cb3               \cf10 \strokec10 100\cf0 \strokec5 : \cf11 \strokec11 '#dce8f3'\cf0 \strokec5 ,\cb1 \
+\cb3               \cf10 \strokec10 500\cf0 \strokec5 : \cf11 \strokec11 '#2b7dbd'\cf0 \strokec5 ,\cb1 \
+\cb3               \cf10 \strokec10 600\cf0 \strokec5 : \cf11 \strokec11 '#1C5B8C'\cf0 \strokec5 , \cf9 \strokec9 /* Primary Banner Blue */\cf0 \cb1 \strokec5 \
+\cb3               \cf10 \strokec10 700\cf0 \strokec5 : \cf11 \strokec11 '#164870'\cf0 \strokec5 ,\cb1 \
+\cb3               \cf10 \strokec10 800\cf0 \strokec5 : \cf11 \strokec11 '#103350'\cf0 \strokec5 ,\cb1 \
+\cb3             \},\cb1 \
+\cb3             brandGreen: \{\cb1 \
+\cb3               \cf10 \strokec10 50\cf0 \strokec5 : \cf11 \strokec11 '#f1f8f2'\cf0 \strokec5 ,\cb1 \
+\cb3               \cf10 \strokec10 100\cf0 \strokec5 : \cf11 \strokec11 '#dcefd0'\cf0 \strokec5 ,\cb1 \
+\cb3               \cf10 \strokec10 500\cf0 \strokec5 : \cf11 \strokec11 '#489c50'\cf0 \strokec5 ,\cb1 \
+\cb3               \cf10 \strokec10 600\cf0 \strokec5 : \cf11 \strokec11 '#3A8140'\cf0 \strokec5 , \cf9 \strokec9 /* Primary Banner Green */\cf0 \cb1 \strokec5 \
+\cb3               \cf10 \strokec10 700\cf0 \strokec5 : \cf11 \strokec11 '#2d6532'\cf0 \strokec5 ,\cb1 \
+\cb3               \cf10 \strokec10 800\cf0 \strokec5 : \cf11 \strokec11 '#204824'\cf0 \strokec5 ,\cb1 \
+\cb3             \},\cb1 \
+\cb3             brandBg: \cf11 \strokec11 '#FAFCFB'\cf0 \strokec5 ,\cb1 \
+\cb3             brandSlate: \cf11 \strokec11 '#F1F5F9'\cf0 \strokec5 ,\cb1 \
+\cb3           \},\cb1 \
+\cb3           fontFamily: \{\cb1 \
+\cb3             sans: [\cf11 \strokec11 'Inter'\cf0 \strokec5 , \cf11 \strokec11 'sans-serif'\cf0 \strokec5 ],\cb1 \
+\cb3             serif: [\cf11 \strokec11 'Merriweather'\cf0 \strokec5 , \cf11 \strokec11 'serif'\cf0 \strokec5 ],\cb1 \
+\cb3             handwritten: [\cf11 \strokec11 'Caveat'\cf0 \strokec5 , \cf11 \strokec11 'cursive'\cf0 \strokec5 ],\cb1 \
+\cb3           \},\cb1 \
+\cb3           boxShadow: \{\cb1 \
+\cb3             \cf11 \strokec11 'soft'\cf0 \strokec5 : \cf11 \strokec11 '0 10px 30px -5px rgba(28, 91, 140, 0.08)'\cf0 \strokec5 ,\cb1 \
+\cb3             \cf11 \strokec11 'card'\cf0 \strokec5 : \cf11 \strokec11 '0 15px 35px -5px rgba(58, 129, 64, 0.10)'\cf0 \strokec5 ,\cb1 \
+\cb3           \}\cb1 \
+\cb3         \}\cb1 \
+\cb3       \}\cb1 \
+\cb3     \}\cb1 \
+\cb3   \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf9 \strokec9 /* Custom organic brush stroke backgrounds & decorative borders */\cf0 \cb1 \strokec5 \
+\cb3     \cf7 \strokec7 .brush-header-blue\cf0 \strokec5  \{\cb1 \
+\cb3       \cf4 \strokec4 background:\cf0 \strokec5  \cf12 \strokec12 radial-gradient(circle\cf0 \strokec5  \cf12 \strokec12 at\cf0 \strokec5  \cf10 \strokec10 10%\cf0 \strokec5  \cf10 \strokec10 20%\cf0 \strokec5 , \cf12 \strokec12 rgba(\cf10 \strokec10 28\cf0 \strokec5 , \cf10 \strokec10 91\cf0 \strokec5 , \cf10 \strokec10 140\cf0 \strokec5 , \cf10 \strokec10 0.15\cf12 \strokec12 )\cf0 \strokec5  \cf10 \strokec10 0%\cf0 \strokec5 , \cf12 \strokec12 transparent\cf0 \strokec5  \cf10 \strokec10 40%\cf12 \strokec12 )\cf0 \strokec5 ,\cb1 \
+\cb3                   \cf12 \strokec12 radial-gradient(circle\cf0 \strokec5  \cf12 \strokec12 at\cf0 \strokec5  \cf10 \strokec10 90%\cf0 \strokec5  \cf10 \strokec10 80%\cf0 \strokec5 , \cf12 \strokec12 rgba(\cf10 \strokec10 58\cf0 \strokec5 , \cf10 \strokec10 129\cf0 \strokec5 , \cf10 \strokec10 64\cf0 \strokec5 , \cf10 \strokec10 0.12\cf12 \strokec12 )\cf0 \strokec5  \cf10 \strokec10 0%\cf0 \strokec5 , \cf12 \strokec12 transparent\cf0 \strokec5  \cf10 \strokec10 40%\cf12 \strokec12 )\cf0 \strokec5 ;\cb1 \
+\cb3     \}\cb1 \
+\cb3     \cf7 \strokec7 .brush-banner-green\cf0 \strokec5  \{\cb1 \
+\cb3       \cf4 \strokec4 background-color:\cf0 \strokec5  \cf12 \strokec12 #3A8140\cf0 \strokec5 ;\cb1 \
+\cb3       \cf4 \strokec4 background-image:\cf0 \strokec5  \cf12 \strokec12 radial-gradient(circle\cf0 \strokec5  \cf12 \strokec12 at\cf0 \strokec5  \cf10 \strokec10 50%\cf0 \strokec5  \cf10 \strokec10 50%\cf0 \strokec5 , \cf12 \strokec12 #44964b\cf0 \strokec5  \cf10 \strokec10 0%\cf0 \strokec5 , \cf12 \strokec12 #3A8140\cf0 \strokec5  \cf10 \strokec10 100%\cf12 \strokec12 )\cf0 \strokec5 ;\cb1 \
+\cb3       \cf4 \strokec4 clip-path:\cf0 \strokec5  \cf12 \strokec12 polygon(\cf10 \strokec10 0\cf0 \strokec5  \cf10 \strokec10 4%\cf0 \strokec5 , \cf10 \strokec10 100%\cf0 \strokec5  \cf10 \strokec10 0%\cf0 \strokec5 , \cf10 \strokec10 100%\cf0 \strokec5  \cf10 \strokec10 96%\cf0 \strokec5 , \cf10 \strokec10 0%\cf0 \strokec5  \cf10 \strokec10 100%\cf12 \strokec12 )\cf0 \strokec5 ;\cb1 \
+\cb3     \}\cb1 \
+\cb3     \cf7 \strokec7 .scalloped-frame\cf0 \strokec5  \{\cb1 \
+\cb3       \cf4 \strokec4 border:\cf0 \strokec5  \cf10 \strokec10 3px\cf0 \strokec5  \cf12 \strokec12 double\cf0 \strokec5  \cf12 \strokec12 #1C5B8C\cf0 \strokec5 ;\cb1 \
+\cb3       \cf4 \strokec4 border-radius:\cf0 \strokec5  \cf10 \strokec10 28px\cf0 \strokec5 ;\cb1 \
+\cb3       \cf4 \strokec4 position:\cf0 \strokec5  \cf12 \strokec12 relative\cf0 \strokec5 ;\cb1 \
+\cb3       \cf4 \strokec4 background:\cf0 \strokec5  \cf12 \strokec12 linear-gradient(\cf10 \strokec10 135deg\cf0 \strokec5 , \cf12 \strokec12 #ffffff\cf0 \strokec5  \cf10 \strokec10 0%\cf0 \strokec5 , \cf12 \strokec12 #f8fbf9\cf0 \strokec5  \cf10 \strokec10 100%\cf12 \strokec12 )\cf0 \strokec5 ;\cb1 \
+\cb3     \}\cb1 \
+\cb3     \cf7 \strokec7 .scalloped-frame::after\cf0 \strokec5  \{\cb1 \
+\cb3       \cf4 \strokec4 content:\cf0 \strokec5  \cf11 \strokec11 ''\cf0 \strokec5 ;\cb1 \
+\cb3       \cf4 \strokec4 position:\cf0 \strokec5  \cf12 \strokec12 absolute\cf0 \strokec5 ;\cb1 \
+\cb3       \cf4 \strokec4 inset:\cf0 \strokec5  \cf10 \strokec10 -8px\cf0 \strokec5 ;\cb1 \
+\cb3       \cf4 \strokec4 border:\cf0 \strokec5  \cf10 \strokec10 1.5px\cf0 \strokec5  \cf12 \strokec12 dashed\cf0 \strokec5  \cf12 \strokec12 #3A8140\cf0 \strokec5 ;\cb1 \
+\cb3       \cf4 \strokec4 border-radius:\cf0 \strokec5  \cf10 \strokec10 34px\cf0 \strokec5 ;\cb1 \
+\cb3       \cf4 \strokec4 pointer-events:\cf0 \strokec5  \cf12 \strokec12 none\cf0 \strokec5 ;\cb1 \
+\cb3       \cf4 \strokec4 opacity:\cf0 \strokec5  \cf10 \strokec10 0.6\cf0 \strokec5 ;\cb1 \
+\cb3     \}\cb1 \
+\cb3     \cf7 \strokec7 .hanging-tag\cf0 \strokec5  \{\cb1 \
+\cb3       \cf4 \strokec4 transform-origin:\cf0 \strokec5  \cf12 \strokec12 top\cf0 \strokec5  \cf12 \strokec12 center\cf0 \strokec5 ;\cb1 \
+\cb3       \cf4 \strokec4 animation:\cf0 \strokec5  \cf12 \strokec12 gentleSwing\cf0 \strokec5  \cf10 \strokec10 4s\cf0 \strokec5  \cf12 \strokec12 ease-in-out\cf0 \strokec5  \cf12 \strokec12 infinite\cf0 \strokec5  \cf12 \strokec12 alternate\cf0 \strokec5 ;\cb1 \
+\cb3     \}\cb1 \
+\cb3     \cf8 \strokec8 @keyframes\cf0 \strokec5  \cf12 \strokec12 gentleSwing\cf0 \strokec5  \{\cb1 \
+\cb3       \cf10 \strokec10 0%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf12 \strokec12 rotate(\cf10 \strokec10 -2deg\cf12 \strokec12 )\cf0 \strokec5 ; \}\cb1 \
+\cb3       \cf10 \strokec10 100%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf12 \strokec12 rotate(\cf10 \strokec10 2deg\cf12 \strokec12 )\cf0 \strokec5 ; \}\cb1 \
+\cb3     \}\cb1 \
+\cb3   \cf6 \strokec6 </\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 body\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brandBg text-slate-800 font-sans antialiased overflow-x-hidden selection:bg-brandBlue-100 selection:text-brandBlue-800"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3   \cf9 \strokec9 <!-- Top Announcement Bar -->\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brandBlue-600 text-white text-xs md:text-sm py-2 px-4 text-center font-medium tracking-wide flex items-center justify-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brandGreen-600 px-2 py-0.5 rounded-full text-[11px] uppercase tracking-wider font-bold"\cf6 \strokec6 >\cf0 \strokec5 Fall Drive Active\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 Sponsor high school students for upcoming career interviews!\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openDonationModal(50)"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "underline hover:text-brandGreen-100 ml-2 font-semibold"\cf6 \strokec6 >\cf0 \strokec5 Sponsor $50 &rarr;\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3   \cf9 \strokec9 <!-- Header & Navigation -->\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 header\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm transition-all duration-300"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center justify-between h-20"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cb1 \
+\cb3         \cf9 \strokec9 <!-- Brand Logo -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-3 group"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "relative w-12 h-12 flex items-center justify-center bg-brandBlue-50 rounded-xl group-hover:scale-105 transition-transform duration-300"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 <!-- Hands forming Heart SVG Logo -->\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 svg\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-9 h-9"\cf0 \strokec5  \cf4 \strokec4 viewBox\cf6 \strokec6 =\cf8 \strokec8 "0 0 100 100"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "none"\cf0 \strokec5  \cf4 \strokec4 xmlns\cf6 \strokec6 =\cf8 \strokec8 "http://www.w3.org/2000/svg"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf9 \strokec9 <!-- Left hand blue -->\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 path\cf0 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf8 \strokec8 "M32 72 C18 58 18 38 34 26 C46 18 52 26 50 38 C48 48 38 52 30 58 C24 63 28 70 34 70 C40 70 48 64 54 58 C52 68 42 78 32 72 Z"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#1C5B8C"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf9 \strokec9 <!-- Right hand green -->\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 path\cf0 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf8 \strokec8 "M68 72 C82 58 82 38 66 26 C54 18 48 26 50 38 C52 48 62 52 70 58 C76 63 72 70 66 70 C60 70 52 64 46 58 C48 68 58 78 68 72 Z"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#3A8140"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf9 \strokec9 <!-- Heart Center Overlay -->\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 path\cf0 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf8 \strokec8 "M50 38 C45 30 35 30 30 38 C25 46 38 60 50 72 C62 60 75 46 70 38 C65 30 55 30 50 38 Z"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#3A8140"\cf0 \strokec5  \cf4 \strokec4 opacity\cf6 \strokec6 =\cf8 \strokec8 "0.15"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 svg\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex flex-col"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl md:text-2xl font-black tracking-tight text-brandBlue-600 font-sans leading-none group-hover:text-brandBlue-700"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               RENEWED\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-lg md:text-xl font-extrabold tracking-widest text-brandBlue-600 leading-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               BEGINNINGS\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-[10px] uppercase tracking-wider text-brandGreen-600 font-semibold mt-0.5"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               Clothing \'95 Confidence \'95 Hope\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Desktop Navigation Links -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 nav\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden md:flex items-center space-x-8 font-medium text-slate-700"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#about"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-brandBlue-600 transition-colors"\cf6 \strokec6 >\cf0 \strokec5 About Us\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#pillars"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-brandBlue-600 transition-colors"\cf6 \strokec6 >\cf0 \strokec5 Our Pillars\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#dress-for-success"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-brandBlue-600 transition-colors"\cf6 \strokec6 >\cf0 \strokec5 Dress for Success\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#impact"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-brandBlue-600 transition-colors"\cf6 \strokec6 >\cf0 \strokec5 Impact\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#get-involved"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-brandBlue-600 transition-colors"\cf6 \strokec6 >\cf0 \strokec5 Get Involved\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 nav\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- CTA Buttons -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden md:flex items-center gap-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openVolunteerModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-brandGreen-700 hover:text-brandGreen-800 font-semibold px-4 py-2 rounded-lg hover:bg-brandGreen-50 transition-colors"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             Volunteer\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openDonationModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brandGreen-600 hover:bg-brandGreen-700 text-white font-bold px-5 py-2.5 rounded-full shadow-md hover:shadow-lg transition-all duration-300 flex items-center gap-2 transform hover:-translate-y-0.5"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-heart text-xs"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             Donate Now\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Mobile Menu Toggle Button -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "mobileMenuBtn"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "md:hidden text-slate-700 hover:text-brandBlue-600 text-2xl p-2 focus:outline-none"\cf0 \strokec5  \cf4 \strokec4 aria-label\cf6 \strokec6 =\cf8 \strokec8 "Toggle menu"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-bars"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf9 \strokec9 <!-- Mobile Drawer Menu -->\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "mobileDrawer"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden md:hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm transition-opacity"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fixed right-0 top-0 h-full w-4/5 max-w-sm bg-white shadow-2xl p-6 flex flex-col justify-between overflow-y-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center justify-between pb-6 border-b border-slate-100"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-lg font-bold text-brandBlue-600"\cf6 \strokec6 >\cf0 \strokec5 Renewed Beginnings\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "closeMobileDrawer"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-slate-400 hover:text-slate-600 text-xl p-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-xmark"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 nav\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex flex-col space-y-4 my-6 text-slate-800 font-semibold text-lg"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#about"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mobile-nav-link hover:text-brandBlue-600"\cf6 \strokec6 >\cf0 \strokec5 About Us\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#pillars"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mobile-nav-link hover:text-brandBlue-600"\cf6 \strokec6 >\cf0 \strokec5 Our Pillars\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#dress-for-success"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mobile-nav-link hover:text-brandBlue-600"\cf6 \strokec6 >\cf0 \strokec5 Dress for Success\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#impact"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mobile-nav-link hover:text-brandBlue-600"\cf6 \strokec6 >\cf0 \strokec5 Our Impact\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#get-involved"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mobile-nav-link hover:text-brandBlue-600"\cf6 \strokec6 >\cf0 \strokec5 Get Involved\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 nav\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-3 pt-6 border-t border-slate-100"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openDonationModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full bg-brandGreen-600 hover:bg-brandGreen-700 text-white font-bold py-3 rounded-xl shadow text-center flex items-center justify-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-heart"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Donate Now\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openVolunteerModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full border-2 border-brandBlue-600 text-brandBlue-600 font-bold py-3 rounded-xl text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             Apply to Volunteer\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 </\cf7 \strokec7 header\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 main\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf9 \strokec9 <!-- Hero Section -->\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "about"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "relative overflow-hidden pt-8 pb-16 lg:pt-16 lg:pb-24 brush-header-blue"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cb1 \
+\cb3           \cf9 \strokec9 <!-- Hero Text Content -->\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "lg:col-span-7 space-y-6 text-center lg:text-left"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf9 \strokec9 <!-- Banner Sub-Headline Badge -->\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white shadow-sm border border-brandBlue-100 text-brandBlue-700 text-sm font-semibold"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-sparkles text-brandGreen-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 Clothing \'95 Confidence \'95 Renewed Beginnings\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf9 \strokec9 <!-- Main Headline matching banner -->\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 h1\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl sm:text-4xl lg:text-5xl font-black text-brandBlue-600 leading-tight tracking-tight"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               Helping our neighbors feel \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-brandGreen-600 underline decoration-brandGreen-500/30"\cf6 \strokec6 >\cf0 \strokec5 confident, valued,\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5  and ready for a renewed beginning.\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 h1\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               We collect, refresh, and redistribute quality clothing to students, families, and individuals in need\'97empowering them with dignity, self-assurance, and opportunities for a brighter tomorrow.\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf9 \strokec9 <!-- Action Buttons -->\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openDonationModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full sm:w-auto bg-brandGreen-600 hover:bg-brandGreen-700 text-white text-lg font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-3 group"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 Get Involved & Donate\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cb1 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#dress-for-success"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full sm:w-auto border-2 border-brandBlue-600 text-brandBlue-600 hover:bg-brandBlue-50 text-lg font-bold px-8 py-4 rounded-full text-center transition-colors"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 Explore Programs\cb1 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf9 \strokec9 <!-- Quick Trust Markers -->\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "pt-6 flex items-center justify-center lg:justify-start gap-6 text-slate-500 text-xs sm:text-sm font-medium"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-check-circle text-brandGreen-600 text-base"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 100% Volunteer Driven\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-check-circle text-brandGreen-600 text-base"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 501(c)(3) Non-Profit\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-check-circle text-brandGreen-600 text-base"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 Local Community Care\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf9 \strokec9 <!-- Hero Visual & Stacked Clothes Banner Badge -->\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "lg:col-span-5 relative flex justify-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "relative w-full max-w-md"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cb1 \
+\cb3               \cf9 \strokec9 <!-- Stack of Clothes / Card Graphic Box -->\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white rounded-3xl p-6 shadow-soft border border-slate-100 relative z-10 overflow-hidden"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-gradient-to-br from-brandBlue-50 to-brandGreen-50 rounded-2xl p-6 text-center border border-dashed border-brandBlue-200 relative"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cb1 \
+\cb3                   \cf9 \strokec9 <!-- Hanging "You're worth it!" Wooden Badge -->\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hanging-tag mx-auto mb-4 inline-block bg-amber-50 border-2 border-amber-200 px-6 py-3 rounded-2xl shadow-md relative"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 <!-- Hanging String Graphic -->\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-6 border-b-2 border-slate-400 rounded-b-full"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center justify-center gap-2 text-brandBlue-600 font-bold font-serif text-lg"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-heart text-brandBlue-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-2xl text-brandBlue-700"\cf6 \strokec6 >\cf0 \strokec5 You're worth it!\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3                   \cf9 \strokec9 <!-- Stacked Clothes SVG Illustration -->\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "my-4 flex justify-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 svg\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-48 h-36 drop-shadow-md"\cf0 \strokec5  \cf4 \strokec4 viewBox\cf6 \strokec6 =\cf8 \strokec8 "0 0 200 150"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "none"\cf0 \strokec5  \cf4 \strokec4 xmlns\cf6 \strokec6 =\cf8 \strokec8 "http://www.w3.org/2000/svg"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                       \cf9 \strokec9 <!-- Bottom sweater green -->\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "30"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "100"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "140"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "24"\cf0 \strokec5  \cf4 \strokec4 rx\cf6 \strokec6 =\cf8 \strokec8 "8"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#3A8140"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 path\cf0 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf8 \strokec8 "M30 112 H170"\cf0 \strokec5  \cf4 \strokec4 stroke\cf6 \strokec6 =\cf8 \strokec8 "#2d6532"\cf0 \strokec5  \cf4 \strokec4 stroke-width\cf6 \strokec6 =\cf8 \strokec8 "2"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3                       \cf9 \strokec9 <!-- Middle sweater pink -->\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "35"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "80"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "130"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "22"\cf0 \strokec5  \cf4 \strokec4 rx\cf6 \strokec6 =\cf8 \strokec8 "8"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#F4C2C2"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3                       \cf9 \strokec9 <!-- Middle sweater soft blue -->\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "25"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "60"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "150"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "22"\cf0 \strokec5  \cf4 \strokec4 rx\cf6 \strokec6 =\cf8 \strokec8 "8"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#1C5B8C"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3                       \cf9 \strokec9 <!-- Top folded sweater warm cream -->\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "40"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "40"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "120"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "22"\cf0 \strokec5  \cf4 \strokec4 rx\cf6 \strokec6 =\cf8 \strokec8 "8"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#FDF6E2"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3                       \cf9 \strokec9 <!-- Clothes Hanger overlay -->\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 path\cf0 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf8 \strokec8 "M100 10 L135 30 H65 L100 10 Z"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "none"\cf0 \strokec5  \cf4 \strokec4 stroke\cf6 \strokec6 =\cf8 \strokec8 "#A0AEC0"\cf0 \strokec5  \cf4 \strokec4 stroke-width\cf6 \strokec6 =\cf8 \strokec8 "3"\cf0 \strokec5  \cf4 \strokec4 stroke-linecap\cf6 \strokec6 =\cf8 \strokec8 "round"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 path\cf0 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf8 \strokec8 "M100 10 C100 2 108 2 108 8"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "none"\cf0 \strokec5  \cf4 \strokec4 stroke\cf6 \strokec6 =\cf8 \strokec8 "#A0AEC0"\cf0 \strokec5  \cf4 \strokec4 stroke-width\cf6 \strokec6 =\cf8 \strokec8 "3"\cf0 \strokec5  \cf4 \strokec4 stroke-linecap\cf6 \strokec6 =\cf8 \strokec8 "round"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf7 \strokec7 svg\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-sm font-semibold text-brandBlue-800 italic font-serif"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     "Recycled clothing. Recycled purpose. Strengthening our community together."\cb1 \
+\cb3                   \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3                 \cf9 \strokec9 <!-- Live Direct Impact Counter Callout -->\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mt-4 bg-slate-50 rounded-xl p-3 flex items-center justify-between text-xs text-slate-600 font-medium"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-3 h-3 rounded-full bg-brandGreen-500 animate-pulse"\cf6 \strokec6 ></\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 This week: \cf6 \strokec6 <\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \strokec5 140+ outfits gifted\cf6 \strokec6 </\cf7 \strokec7 strong\cf6 \strokec6 ></\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#pillars"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-brandBlue-600 font-bold hover:underline"\cf6 \strokec6 >\cf0 \strokec5 See how &rarr;\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3               \cf9 \strokec9 <!-- Decorative Background Flairs -->\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute -top-6 -left-6 w-24 h-24 bg-brandBlue-100/60 rounded-full blur-2xl pointer-events-none"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute -bottom-6 -right-6 w-32 h-32 bg-brandGreen-100/80 rounded-full blur-2xl pointer-events-none"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf9 \strokec9 <!-- Core Pillars Section (Matching Banner Cards) -->\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "pillars"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-16 bg-white border-y border-slate-100"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cb1 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center max-w-3xl mx-auto mb-14"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl font-black text-brandBlue-600 tracking-tight sm:text-4xl"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             Our Core Mission & Pillars\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mt-3 text-slate-600 text-base sm:text-lg"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             Every garment we process carries a promise: restoring dignity, inspiring confidence, and paving the path toward a brighter future.\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-1 md:grid-cols-3 gap-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cb1 \
+\cb3           \cf9 \strokec9 <!-- Pillar 1: Clothing for Today -->\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brandBg rounded-2xl p-8 border border-slate-200/80 shadow-sm hover:shadow-card transition-all duration-300 group hover:-translate-y-1"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-16 h-16 rounded-2xl bg-brandBlue-50 border border-brandBlue-100 flex items-center justify-center text-brandBlue-600 text-2xl mb-6 group-hover:bg-brandBlue-600 group-hover:text-white transition-colors"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf9 \strokec9 <!-- Shirt Icon SVG -->\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 svg\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-8 h-8 stroke-current"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "none"\cf0 \strokec5  \cf4 \strokec4 viewBox\cf6 \strokec6 =\cf8 \strokec8 "0 0 24 24"\cf0 \strokec5  \cf4 \strokec4 stroke-width\cf6 \strokec6 =\cf8 \strokec8 "2"\cf0 \strokec5  \cf4 \strokec4 stroke\cf6 \strokec6 =\cf8 \strokec8 "currentColor"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 path\cf0 \strokec5  \cf4 \strokec4 stroke-linecap\cf6 \strokec6 =\cf8 \strokec8 "round"\cf0 \strokec5  \cf4 \strokec4 stroke-linejoin\cf6 \strokec6 =\cf8 \strokec8 "round"\cf0 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf8 \strokec8 "M6 2L10 6H14L18 2L22 6L18 10V21H6V10L2 6L6 2Z"\cf0 \strokec5  \cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 svg\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-bold text-brandBlue-600 mb-2 flex items-center justify-between"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 CLOTHING\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs font-semibold px-2.5 py-1 rounded-full bg-brandBlue-100 text-brandBlue-700"\cf6 \strokec6 >\cf0 \strokec5 for today\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-slate-600 text-sm leading-relaxed mb-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               Providing essential, seasonal wardrobe packages for children, students, and families experiencing hardship, displacement, or sudden life transitions.\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 ul\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-500 space-y-2 font-medium border-t border-slate-200/60 pt-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-check text-brandGreen-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Clean, sorted everyday wear\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-check text-brandGreen-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  School dress-code compliant bundles\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-check text-brandGreen-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Emergency weather coats & shoes\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 ul\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf9 \strokec9 <!-- Pillar 2: Confidence for Tomorrow -->\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brandBg rounded-2xl p-8 border border-slate-200/80 shadow-sm hover:shadow-card transition-all duration-300 group hover:-translate-y-1"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-16 h-16 rounded-2xl bg-brandGreen-50 border border-brandGreen-100 flex items-center justify-center text-brandGreen-600 text-2xl mb-6 group-hover:bg-brandGreen-600 group-hover:text-white transition-colors"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf9 \strokec9 <!-- Heart Icon SVG -->\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 svg\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-8 h-8 stroke-current"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "none"\cf0 \strokec5  \cf4 \strokec4 viewBox\cf6 \strokec6 =\cf8 \strokec8 "0 0 24 24"\cf0 \strokec5  \cf4 \strokec4 stroke-width\cf6 \strokec6 =\cf8 \strokec8 "2"\cf0 \strokec5  \cf4 \strokec4 stroke\cf6 \strokec6 =\cf8 \strokec8 "currentColor"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 path\cf0 \strokec5  \cf4 \strokec4 stroke-linecap\cf6 \strokec6 =\cf8 \strokec8 "round"\cf0 \strokec5  \cf4 \strokec4 stroke-linejoin\cf6 \strokec6 =\cf8 \strokec8 "round"\cf0 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf8 \strokec8 "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"\cf0 \strokec5  \cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 svg\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-bold text-brandGreen-700 mb-2 flex items-center justify-between"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 CONFIDENCE\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs font-semibold px-2.5 py-1 rounded-full bg-brandGreen-100 text-brandGreen-800"\cf6 \strokec6 >\cf0 \strokec5 for tomorrow\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-slate-600 text-sm leading-relaxed mb-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               Empowering individuals to stand tall in professional and personal settings. When you look and feel ready, new opportunities naturally open up.\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 ul\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-500 space-y-2 font-medium border-t border-slate-200/60 pt-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-check text-brandGreen-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Tailored fittings & style guidance\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-check text-brandGreen-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Interview preparation wardrobes\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-check text-brandGreen-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Self-esteem boosting experiences\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 ul\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf9 \strokec9 <!-- Pillar 3: Hope for a Brighter Future -->\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brandBg rounded-2xl p-8 border border-slate-200/80 shadow-sm hover:shadow-card transition-all duration-300 group hover:-translate-y-1"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-16 h-16 rounded-2xl bg-brandBlue-50 border border-brandBlue-100 flex items-center justify-center text-brandBlue-600 text-2xl mb-6 group-hover:bg-brandBlue-600 group-hover:text-white transition-colors"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf9 \strokec9 <!-- Butterfly / Hope Icon SVG -->\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 svg\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-8 h-8 fill-current"\cf0 \strokec5  \cf4 \strokec4 viewBox\cf6 \strokec6 =\cf8 \strokec8 "0 0 24 24"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 path\cf0 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf8 \strokec8 "M12 4.5C10.5 2.5 8 1.5 5.5 2 2.8 2.5 1 5 1.5 8C2 11 4.5 13 8 13.5C6 15 4.5 17 5 19.5C5.5 22 8 23 10.5 22.5C11.5 22.3 12 21.5 12 21.5C12 21.5 12.5 22.3 13.5 22.5C16 23 18.5 22 19 19.5C19.5 17 18 15 16 13.5C19.5 13 22 11 22.5 8C23 5 21.2 2.5 18.5 2 C16 1.5 13.5 2.5 12 4.5Z"\cf0 \strokec5  \cf4 \strokec4 opacity\cf6 \strokec6 =\cf8 \strokec8 "0.3"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 path\cf0 \strokec5  \cf4 \strokec4 d\cf6 \strokec6 =\cf8 \strokec8 "M12 2V22M12 7C10 5 7 4 4.5 5C2 6 1 8.5 2 11C3 13.5 6 14.5 9 14.5M12 7C14 5 17 4 19.5 5C22 6 23 8.5 22 11C21 13.5 18 14.5 15 14.5"\cf0 \strokec5  \cf4 \strokec4 stroke\cf6 \strokec6 =\cf8 \strokec8 "currentColor"\cf0 \strokec5  \cf4 \strokec4 stroke-width\cf6 \strokec6 =\cf8 \strokec8 "2"\cf0 \strokec5  \cf4 \strokec4 stroke-linecap\cf6 \strokec6 =\cf8 \strokec8 "round"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 svg\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-bold text-brandBlue-600 mb-2 flex items-center justify-between"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 HOPE\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs font-semibold px-2.5 py-1 rounded-full bg-brandBlue-100 text-brandBlue-700"\cf6 \strokec6 >\cf0 \strokec5 for a brighter future\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-slate-600 text-sm leading-relaxed mb-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               Strengthening our community through sustainability and mentorship. Every donated shirt or jacket creates a ripple effect of warmth and care.\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 ul\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-500 space-y-2 font-medium border-t border-slate-200/60 pt-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-check text-brandGreen-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Sustainable recycled textile loop\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-check text-brandGreen-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Community volunteer engagement\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-check text-brandGreen-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Long-term youth support systems\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 ul\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf9 \strokec9 <!-- Featured Program Section: "Dress for Success" (Scalloped Frame Banner) -->\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "dress-for-success"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-20 bg-slate-50 relative"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-5xl mx-auto px-4 sm:px-6 lg:px-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cb1 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "scalloped-frame p-8 sm:p-12 text-center shadow-xl"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cb1 \
+\cb3           \cf9 \strokec9 <!-- Hanger & Logo Header Badge -->\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-20 h-20 mx-auto mb-4 rounded-full bg-slate-100 border-2 border-brandBlue-600 flex items-center justify-center text-brandBlue-600 shadow-inner"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-shirt text-2xl"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-heart text-brandGreen-600 text-xs block -mt-1"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "inline-block uppercase tracking-widest text-xs font-bold text-brandGreen-700 bg-brandGreen-100 px-3 py-1 rounded-full mb-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             High School Youth Initiative\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl sm:text-4xl font-black text-brandBlue-600 tracking-tight mb-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             DRESS FOR SUCCESS\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-lg sm:text-xl text-slate-700 font-serif italic max-w-2xl mx-auto leading-relaxed mb-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             "Providing professional clothing and confidence for high school students preparing for job interviews, careers, and their future."\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-1 md:grid-cols-3 gap-6 text-left mb-8 max-w-3xl mx-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-start gap-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "p-2 bg-brandBlue-50 text-brandBlue-600 rounded-lg font-bold"\cf6 \strokec6 >\cf0 \strokec5 01\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-slate-800 text-sm"\cf6 \strokec6 >\cf0 \strokec5 Full Interview Suits\cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-500"\cf6 \strokec6 >\cf0 \strokec5 Blazings, slacks, skirts, dress shirts, and polishable shoes.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-start gap-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "p-2 bg-brandGreen-50 text-brandGreen-600 rounded-lg font-bold"\cf6 \strokec6 >\cf0 \strokec5 02\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-slate-800 text-sm"\cf6 \strokec6 >\cf0 \strokec5 Styling & Grooming\cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-500"\cf6 \strokec6 >\cf0 \strokec5 1-on-1 styling sessions to match individual career choices.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-start gap-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "p-2 bg-brandBlue-50 text-brandBlue-600 rounded-lg font-bold"\cf6 \strokec6 >\cf0 \strokec5 03\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-slate-800 text-sm"\cf6 \strokec6 >\cf0 \strokec5 Interview Coaching\cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-500"\cf6 \strokec6 >\cf0 \strokec5 Confidence prep, body language tips, and resume reviews.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf9 \strokec9 <!-- Interactive Program CTAs -->\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex flex-col sm:flex-row items-center justify-center gap-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openNominateModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full sm:w-auto bg-brandBlue-600 hover:bg-brandBlue-700 text-white font-bold px-8 py-3.5 rounded-full shadow transition-all flex items-center justify-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-user-graduate"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               Nominate a Student\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openDonationModal(50)"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full sm:w-auto bg-brandGreen-600 hover:bg-brandGreen-700 text-white font-bold px-8 py-3.5 rounded-full shadow transition-all flex items-center justify-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-gift"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               Sponsor an Outfit ($50)\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf9 \strokec9 <!-- Philosophy Banner & Impact Counters (Green Brushstroke Section) -->\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "impact"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "brush-banner-green py-20 text-white relative"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cb1 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-3xl mx-auto mb-12 space-y-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "inline-flex items-center gap-2 bg-white/20 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-leaf"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Sustainable Community Impact\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl sm:text-4xl lg:text-5xl font-black tracking-wide uppercase leading-tight"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             RECYCLED CLOTHING.\cf6 \strokec6 <\cf7 \strokec7 br\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden sm:inline"\cf6 \strokec6 >\cf0 \strokec5  RECYCLED PURPOSE.\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-handwritten text-emerald-100 text-2xl sm:text-3xl"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             Strengthening our community together.\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Live Metrics Grid -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 pt-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-2"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "metric1"\cf6 \strokec6 >\cf0 \strokec5 12,450+\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs sm:text-sm font-medium text-emerald-100"\cf6 \strokec6 >\cf0 \strokec5 Clothing Items Gifted\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-2"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "metric2"\cf6 \strokec6 >\cf0 \strokec5 850+\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs sm:text-sm font-medium text-emerald-100"\cf6 \strokec6 >\cf0 \strokec5 High Schoolers Prepared\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-2"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "metric3"\cf6 \strokec6 >\cf0 \strokec5 45+\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs sm:text-sm font-medium text-emerald-100"\cf6 \strokec6 >\cf0 \strokec5 Partner Schools & Shelters\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-2"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "metric4"\cf6 \strokec6 >\cf0 \strokec5 3,200+\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs sm:text-sm font-medium text-emerald-100"\cf6 \strokec6 >\cf0 \strokec5 Volunteer Hours\cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf9 \strokec9 <!-- Get Involved Section (Tabs Navigation & Content) -->\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 section\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "get-involved"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "py-20 bg-brandBg"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cb1 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center max-w-3xl mx-auto mb-12"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-3xl sm:text-4xl font-black text-brandBlue-600 tracking-tight"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             GET INVOLVED\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mt-3 text-slate-600 text-base sm:text-lg"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             Whether you want to donate gently used clothes, volunteer your time, or partner as a school or corporate sponsor, there's a place for you here.\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Interactive Tab Switches -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex justify-center mb-10"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-slate-200/80 p-1.5 rounded-2xl flex flex-wrap justify-center gap-1 max-w-xl w-full"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "switchTab('donate')"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "tab-donate-btn"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex-1 py-3 px-4 rounded-xl font-bold text-sm transition-all duration-200 bg-white text-brandBlue-600 shadow-sm"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-box-open mr-1.5"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Donate Clothes\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "switchTab('volunteer')"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "tab-volunteer-btn"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex-1 py-3 px-4 rounded-xl font-bold text-sm transition-all duration-200 text-slate-600 hover:text-brandBlue-600"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-hands-holding-heart mr-1.5"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Volunteer\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "switchTab('partner')"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "tab-partner-btn"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex-1 py-3 px-4 rounded-xl font-bold text-sm transition-all duration-200 text-slate-600 hover:text-brandBlue-600"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-handshake mr-1.5"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Partner\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Tab 1: Donate Clothes Content -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "tab-donate"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "tab-content transition-all duration-300"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-1 lg:grid-cols-12 gap-8 items-start"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf9 \strokec9 <!-- Left Info & Guidelines -->\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "lg:col-span-7 bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm space-y-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-2xl font-bold text-brandBlue-600 flex items-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-shirt text-brandGreen-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Clothing Drop-off Guidelines\cb1 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-slate-600 text-sm leading-relaxed"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 We accept clean, gently worn or new clothing for youth and adults. Please ensure items are laundered, stain-free, and ready to wear.\cb1 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs font-semibold"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-emerald-50 border border-emerald-200 p-4 rounded-xl text-emerald-900"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-sm block mb-1 text-emerald-800"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-circle-check text-emerald-600 mr-1"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Highly Needed Items:\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 ul\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-1 text-slate-700 font-normal"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \strokec5 \'95 Business attire & interview suits\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \strokec5 \'95 New socks and underwear (in original packaging)\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \strokec5 \'95 Clean jackets, hoodies & winter coats\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \strokec5 \'95 Dress shoes & sneakers in good condition\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 </\cf7 \strokec7 ul\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-rose-50 border border-rose-200 p-4 rounded-xl text-rose-900"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-sm block mb-1 text-rose-800"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-circle-xmark text-rose-600 mr-1"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  We Cannot Accept:\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 ul\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-1 text-slate-700 font-normal"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \strokec5 \'95 Heavily worn, stained, or torn garments\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \strokec5 \'95 Used undergarments or socks\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \strokec5 \'95 Damaged or missing zipper items\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \strokec5 \'95 Household furniture or mattresses\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 </\cf7 \strokec7 ul\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3               \cf9 \strokec9 <!-- Drop Off Locations -->\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "border-t border-slate-100 pt-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-slate-800 mb-3 flex items-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-location-dot text-brandBlue-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Community Drop-off Bins\cb1 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-3 text-sm text-slate-600"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center justify-between bg-slate-50 p-3 rounded-lg"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 strong\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-slate-800 block"\cf6 \strokec6 >\cf0 \strokec5 Main Community Hub\cf6 \strokec6 </\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 104 Renewal Way, Suite 200 (Mon-Fri 9am-5pm)\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs bg-brandGreen-100 text-brandGreen-800 px-2 py-1 rounded font-bold"\cf6 \strokec6 >\cf0 \strokec5 Primary\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center justify-between bg-slate-50 p-3 rounded-lg"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 strong\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-slate-800 block"\cf6 \strokec6 >\cf0 \strokec5 Northside High Athletics Center\cf6 \strokec6 </\cf7 \strokec7 strong\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                       \cf6 \strokec6 <\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 450 Academy Blvd (24/7 Drop Box)\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs bg-slate-200 text-slate-700 px-2 py-1 rounded font-bold"\cf6 \strokec6 >\cf0 \strokec5 24/7 Box\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf9 \strokec9 <!-- Right Financial Support Widget -->\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "lg:col-span-5 bg-gradient-to-br from-brandBlue-600 to-brandBlue-800 text-white p-8 rounded-2xl shadow-lg relative overflow-hidden"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "relative z-10 space-y-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brandGreen-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase"\cf6 \strokec6 >\cf0 \strokec5 Fast Financial Impact\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-2xl font-bold"\cf6 \strokec6 >\cf0 \strokec5 Can't drop off clothing today?\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-brandBlue-100 text-sm"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   Your financial gift purchases new shoes, undergarments, and interview accessories directly for local students.\cb1 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white/10 backdrop-blur-md p-4 rounded-xl space-y-3 border border-white/20"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs font-bold uppercase tracking-wider text-brandBlue-200 block"\cf6 \strokec6 >\cf0 \strokec5 Choose an Amount:\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-4 gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openDonationModal(25)"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white text-brandBlue-800 font-bold py-2 rounded-lg hover:bg-brandGreen-50 transition-colors"\cf6 \strokec6 >\cf0 \strokec5 $25\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openDonationModal(50)"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brandGreen-600 text-white font-bold py-2 rounded-lg hover:bg-brandGreen-500 transition-colors"\cf6 \strokec6 >\cf0 \strokec5 $50\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openDonationModal(100)"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white text-brandBlue-800 font-bold py-2 rounded-lg hover:bg-brandGreen-50 transition-colors"\cf6 \strokec6 >\cf0 \strokec5 $100\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openDonationModal(250)"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white text-brandBlue-800 font-bold py-2 rounded-lg hover:bg-brandGreen-50 transition-colors"\cf6 \strokec6 >\cf0 \strokec5 $250\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openDonationModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full bg-brandGreen-500 hover:bg-brandGreen-600 text-white font-bold py-3.5 rounded-xl shadow-lg transition-all flex items-center justify-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-heart"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Make Custom Financial Donation\cb1 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Tab 2: Volunteer Content -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "tab-volunteer"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "tab-content hidden transition-all duration-300"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-1 md:grid-cols-3 gap-6 mb-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-12 h-12 rounded-full bg-brandBlue-50 text-brandBlue-600 flex items-center justify-center mx-auto text-xl mb-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-boxes-packing"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-slate-800 text-lg mb-2"\cf6 \strokec6 >\cf0 \strokec5 Clothing Sorting Team\cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-600 leading-relaxed mb-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 Help inspect, sort, size, and pack donated garments so they are ready for distribution.\cb1 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs font-semibold text-brandGreen-700 bg-brandGreen-50 px-3 py-1 rounded-full"\cf6 \strokec6 >\cf0 \strokec5 Flexible Shifts (2-3 hrs)\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-12 h-12 rounded-full bg-brandGreen-50 text-brandGreen-600 flex items-center justify-center mx-auto text-xl mb-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-user-check"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-slate-800 text-lg mb-2"\cf6 \strokec6 >\cf0 \strokec5 Student Personal Stylist\cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-600 leading-relaxed mb-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 Work 1-on-1 with high school youth to assemble confidence-building outfits for upcoming interviews.\cb1 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs font-semibold text-brandGreen-700 bg-brandGreen-50 px-3 py-1 rounded-full"\cf6 \strokec6 >\cf0 \strokec5 Afternoon / Weekend\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-12 h-12 rounded-full bg-brandBlue-50 text-brandBlue-600 flex items-center justify-center mx-auto text-xl mb-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-truck-ramp-box"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-slate-800 text-lg mb-2"\cf6 \strokec6 >\cf0 \strokec5 Clothing Drive Captain\cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-600 leading-relaxed mb-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 Lead a collection drive at your workplace, neighborhood, church, or school with our turnkey starter kit.\cb1 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs font-semibold text-brandGreen-700 bg-brandGreen-50 px-3 py-1 rounded-full"\cf6 \strokec6 >\cf0 \strokec5 Remote / Community\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white p-8 rounded-2xl border border-slate-200 text-center max-w-2xl mx-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-2xl font-bold text-brandBlue-600 mb-2"\cf6 \strokec6 >\cf0 \strokec5 Ready to give back?\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-slate-600 text-sm mb-6"\cf6 \strokec6 >\cf0 \strokec5 Join over 150 active volunteers who make renewed beginnings possible every single week.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openVolunteerModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brandGreen-600 hover:bg-brandGreen-700 text-white font-bold px-8 py-3.5 rounded-full shadow transition-all"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               Fill Out Volunteer Application\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Tab 3: Partner Content -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "tab-partner"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "tab-content hidden transition-all duration-300"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white p-8 rounded-2xl border border-slate-200 shadow-sm grid grid-cols-1 md:grid-cols-2 gap-8 items-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs font-bold uppercase tracking-wider text-brandGreen-700 bg-brandGreen-100 px-3 py-1 rounded-full"\cf6 \strokec6 >\cf0 \strokec5 Community Network\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-2xl font-bold text-brandBlue-600"\cf6 \strokec6 >\cf0 \strokec5 School & Corporate Partnerships\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-slate-600 text-sm leading-relaxed"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 We collaborate directly with high school guidance counselors, social workers, job placement programs, and local businesses to identify students and community members who need clothing support.\cb1 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 ul\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-2 text-sm text-slate-700 font-medium"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-building-columns text-brandBlue-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  High School Guidance & Career Centers\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-briefcase text-brandBlue-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Corporate Clothing Drives & Sponsorships\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 li\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-hands-holding text-brandBlue-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Local Shelters & Transition Housing\cf6 \strokec6 </\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 ul\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-slate-50 p-6 rounded-xl border border-slate-200 space-y-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold text-slate-800 text-lg"\cf6 \strokec6 >\cf0 \strokec5 Partner With Us Today\cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-500"\cf6 \strokec6 >\cf0 \strokec5 Interested in referring students or organizing a corporate drive?\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 form\cf0 \strokec5  \cf4 \strokec4 onsubmit\cf6 \strokec6 =\cf8 \strokec8 "handlePartnerSubmit(event)"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "text"\cf0 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf8 \strokec8 "Organization / School Name"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-3 py-2 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-brandBlue-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "email"\cf0 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf8 \strokec8 "Contact Email Address"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-3 py-2 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-brandBlue-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 select\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-3 py-2 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-brandBlue-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "school"\cf6 \strokec6 >\cf0 \strokec5 High School Referral Program\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "corporate"\cf6 \strokec6 >\cf0 \strokec5 Corporate Clothing Drive\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "grant"\cf6 \strokec6 >\cf0 \strokec5 Financial Partnership / Grant\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 select\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "submit"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full bg-brandBlue-600 hover:bg-brandBlue-700 text-white font-bold py-2.5 rounded-lg text-sm transition-colors"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                   Submit Partner Inquiry\cb1 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 </\cf7 \strokec7 form\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 section\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3   \cf6 \strokec6 </\cf7 \strokec7 main\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3   \cf9 \strokec9 <!-- Footer Section -->\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 footer\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brandBlue-800 text-white pt-16 pb-12 relative overflow-hidden"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cb1 \
+\cb3       \cf9 \strokec9 <!-- Center Banner Quote matching footer of image -->\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center pb-12 border-b border-brandBlue-700/80 max-w-3xl mx-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-handwritten text-3xl sm:text-4xl text-emerald-300 leading-snug"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           One person at a time. \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-regular fa-heart text-2xl mx-1 text-white"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 ><\cf7 \strokec7 br\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           One renewed beginning at a time.\cb1 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-1 md:grid-cols-12 gap-8 py-12"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cb1 \
+\cb3         \cf9 \strokec9 <!-- Column 1: Brand Info -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "md:col-span-5 space-y-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-hands-holding-heart text-emerald-400 text-xl"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xl font-black tracking-tight block leading-none"\cf6 \strokec6 >\cf0 \strokec5 RENEWED BEGINNINGS\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-emerald-300 font-semibold uppercase tracking-wider"\cf6 \strokec6 >\cf0 \strokec5 Non-Profit Organization\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-brandBlue-200 text-sm leading-relaxed max-w-sm"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             Empowering neighbors across our community through clothing relief, career confidence, and sustainable support.\cb1 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center space-x-4 text-brandBlue-200 text-lg pt-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-white transition-colors"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-brands fa-facebook"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 ></\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-white transition-colors"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-brands fa-instagram"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 ></\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-white transition-colors"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-brands fa-linkedin"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 ></\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-white transition-colors"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-envelope"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 ></\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Column 2: Navigation Links -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "md:col-span-3 space-y-3 text-sm text-brandBlue-200"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-white font-bold text-base mb-2"\cf6 \strokec6 >\cf0 \strokec5 Quick Navigation\cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 ul\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 ><\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#about"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-white transition-colors"\cf6 \strokec6 >\cf0 \strokec5 About Our Mission\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 ></\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 ><\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#pillars"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-white transition-colors"\cf6 \strokec6 >\cf0 \strokec5 Our Core Pillars\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 ></\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 ><\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#dress-for-success"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-white transition-colors"\cf6 \strokec6 >\cf0 \strokec5 Dress for Success Program\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 ></\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 ><\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#get-involved"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-white transition-colors"\cf6 \strokec6 >\cf0 \strokec5 Drop-off Locations\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 ></\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 li\cf6 \strokec6 ><\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#impact"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hover:text-white transition-colors"\cf6 \strokec6 >\cf0 \strokec5 Community Impact\cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 ></\cf7 \strokec7 li\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 ul\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Column 3: Scan QR Code Banner Card -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "md:col-span-4 bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/10 flex items-center gap-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf9 \strokec9 <!-- Mock QR Code SVG -->\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white p-3 rounded-xl shadow-md shrink-0 text-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 svg\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-20 h-20"\cf0 \strokec5  \cf4 \strokec4 viewBox\cf6 \strokec6 =\cf8 \strokec8 "0 0 100 100"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "none"\cf0 \strokec5  \cf4 \strokec4 xmlns\cf6 \strokec6 =\cf8 \strokec8 "http://www.w3.org/2000/svg"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "10"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "10"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "30"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "30"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#1C5B8C"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "15"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "15"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "20"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "20"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "white"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "20"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "20"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "10"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "10"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#1C5B8C"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "60"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "10"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "30"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "30"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#1C5B8C"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "65"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "15"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "20"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "20"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "white"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "70"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "20"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "10"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "10"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#1C5B8C"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "10"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "60"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "30"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "30"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#1C5B8C"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "15"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "65"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "20"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "20"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "white"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "20"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "70"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "10"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "10"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#1C5B8C"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "50"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "50"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "10"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "10"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#3A8140"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "70"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "50"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "15"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "15"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#3A8140"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "50"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "75"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "20"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "15"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#1C5B8C"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 rect\cf0 \strokec5  \cf4 \strokec4 x\cf6 \strokec6 =\cf8 \strokec8 "75"\cf0 \strokec5  \cf4 \strokec4 y\cf6 \strokec6 =\cf8 \strokec8 "75"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "15"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "15"\cf0 \strokec5  \cf4 \strokec4 fill\cf6 \strokec6 =\cf8 \strokec8 "#3A8140"\cf6 \strokec6 />\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 svg\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-[10px] text-slate-700 font-bold block mt-1"\cf6 \strokec6 >\cf0 \strokec5 Scan here!\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-1"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 h5\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-white font-bold text-sm"\cf6 \strokec6 >\cf0 \strokec5 GET INVOLVED\cf6 \strokec6 </\cf7 \strokec7 h5\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-brandBlue-200"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               Donate \'95 Volunteer \'95 Partner with Us\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "openDonationModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs font-bold text-emerald-300 hover:text-white underline pt-2 block"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               Scan or Click to Give &rarr;\cb1 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "pt-8 border-t border-brandBlue-700/60 text-center text-xs text-brandBlue-300 flex flex-col sm:flex-row items-center justify-between gap-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \strokec5 &copy; 2026 Renewed Beginnings Non-Profit. All Rights Reserved. 501(c)(3) Tax Exempt Organization.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-emerald-300/80 font-serif italic"\cf6 \strokec6 >\cf0 \strokec5 Recycled clothing. Recycled purpose.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 </\cf7 \strokec7 footer\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3   \cf9 \strokec9 <!-- MODAL 1: DONATION MODAL -->\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "donationModal"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 shadow-2xl relative border border-slate-100 max-h-[90vh] overflow-y-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cb1 \
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "closeDonationModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute top-4 right-4 text-slate-400 hover:text-slate-600 text-xl p-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-xmark"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center mb-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-12 h-12 rounded-full bg-brandGreen-50 text-brandGreen-600 flex items-center justify-center mx-auto text-xl mb-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-heart"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-2xl font-bold text-brandBlue-600"\cf6 \strokec6 >\cf0 \strokec5 Support Renewed Beginnings\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-500 mt-1"\cf6 \strokec6 >\cf0 \strokec5 100% of your donation directly funds student outfits & clothes sorting.\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 form\cf0 \strokec5  \cf4 \strokec4 onsubmit\cf6 \strokec6 =\cf8 \strokec8 "handleDonationSubmit(event)"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-5"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cb1 \
+\cb3         \cf9 \strokec9 <!-- Frequency Toggle -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-slate-100 p-1 rounded-xl flex"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "button"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "freq-once"\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "setFrequency('once')"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex-1 py-2 text-xs font-bold rounded-lg bg-white text-brandBlue-600 shadow-sm"\cf6 \strokec6 >\cf0 \strokec5 One-Time Gift\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "button"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "freq-monthly"\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "setFrequency('monthly')"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex-1 py-2 text-xs font-bold rounded-lg text-slate-600"\cf6 \strokec6 >\cf0 \strokec5 Monthly Partner\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Preset Amount Grid -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs font-bold text-slate-700 block mb-2"\cf6 \strokec6 >\cf0 \strokec5 Select Donation Amount:\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-4 gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "button"\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "selectModalAmount(25)"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "modal-amt-25"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "amt-btn border-2 border-slate-200 font-bold py-2 rounded-xl text-slate-700 hover:border-brandGreen-500 transition-all text-sm"\cf6 \strokec6 >\cf0 \strokec5 $25\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "button"\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "selectModalAmount(50)"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "modal-amt-50"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "amt-btn border-2 border-brandGreen-600 bg-brandGreen-50 font-bold py-2 rounded-xl text-brandGreen-700 transition-all text-sm"\cf6 \strokec6 >\cf0 \strokec5 $50\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "button"\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "selectModalAmount(100)"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "modal-amt-100"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "amt-btn border-2 border-slate-200 font-bold py-2 rounded-xl text-slate-700 hover:border-brandGreen-500 transition-all text-sm"\cf6 \strokec6 >\cf0 \strokec5 $100\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "button"\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "selectModalAmount(250)"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "modal-amt-250"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "amt-btn border-2 border-slate-200 font-bold py-2 rounded-xl text-slate-700 hover:border-brandGreen-500 transition-all text-sm"\cf6 \strokec6 >\cf0 \strokec5 $250\cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Dynamic Impact Explanation -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-brandBlue-50 border border-brandBlue-100 p-3 rounded-xl text-xs text-brandBlue-800 flex items-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-circle-info text-brandBlue-600 text-base shrink-0"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "impactText"\cf6 \strokec6 >\cf0 \strokec5 Your $50 gift sponsors 1 High School student with complete interview attire & shoes!\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Custom Amount Input -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs font-bold text-slate-700 block mb-1"\cf6 \strokec6 >\cf0 \strokec5 Custom Amount ($USD):\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "number"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "customAmountInput"\cf0 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf8 \strokec8 "Enter custom amount"\cf0 \strokec5  \cf4 \strokec4 min\cf6 \strokec6 =\cf8 \strokec8 "5"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-4 py-2.5 text-sm border border-slate-300 rounded-xl focus:ring-2 focus:ring-brandGreen-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Personal Info -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "text"\cf0 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf8 \strokec8 "Full Name"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-4 py-2.5 text-sm border border-slate-300 rounded-xl focus:ring-2 focus:ring-brandGreen-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "email"\cf0 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf8 \strokec8 "Email Address for Receipt"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-4 py-2.5 text-sm border border-slate-300 rounded-xl focus:ring-2 focus:ring-brandGreen-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf9 \strokec9 <!-- Mock Payment Card -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-slate-50 p-3 rounded-xl border border-slate-200 text-xs text-slate-500 flex items-center justify-between"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2"\cf6 \strokec6 ><\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-lock text-brandGreen-600"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \strokec5  Secure Payment Processing\cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex gap-1.5 text-base text-slate-600"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-brands fa-cc-visa"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-brands fa-cc-mastercard"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-brands fa-cc-apple-pay"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "submit"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full bg-brandGreen-600 hover:bg-brandGreen-700 text-white font-bold py-3.5 rounded-xl shadow-lg transition-all text-base"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           Complete Donation\cb1 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 form\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3   \cf9 \strokec9 <!-- MODAL 2: VOLUNTEER MODAL -->\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "volunteerModal"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border border-slate-100 max-h-[90vh] overflow-y-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cb1 \
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "closeVolunteerModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute top-4 right-4 text-slate-400 hover:text-slate-600 text-xl p-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-xmark"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center mb-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-12 h-12 rounded-full bg-brandBlue-50 text-brandBlue-600 flex items-center justify-center mx-auto text-xl mb-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-hands-holding"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-2xl font-bold text-brandBlue-600"\cf6 \strokec6 >\cf0 \strokec5 Volunteer Sign-Up\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-500 mt-1"\cf6 \strokec6 >\cf0 \strokec5 Join our volunteer team and help strengthen our community!\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 form\cf0 \strokec5  \cf4 \strokec4 onsubmit\cf6 \strokec6 =\cf8 \strokec8 "handleVolunteerSubmit(event)"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-4 text-sm"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-1 sm:grid-cols-2 gap-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs font-bold text-slate-700 mb-1"\cf6 \strokec6 >\cf0 \strokec5 First Name\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "text"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brandBlue-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs font-bold text-slate-700 mb-1"\cf6 \strokec6 >\cf0 \strokec5 Last Name\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "text"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brandBlue-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs font-bold text-slate-700 mb-1"\cf6 \strokec6 >\cf0 \strokec5 Email Address\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "email"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brandBlue-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs font-bold text-slate-700 mb-1"\cf6 \strokec6 >\cf0 \strokec5 Preferred Volunteer Role\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 select\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brandBlue-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "sorting"\cf6 \strokec6 >\cf0 \strokec5 Clothing Sorting & Inventory Processing\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "stylist"\cf6 \strokec6 >\cf0 \strokec5 High School Student Stylist (Dress for Success)\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "drive"\cf6 \strokec6 >\cf0 \strokec5 Clothing Drive Organizer\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 value\cf6 \strokec6 =\cf8 \strokec8 "general"\cf6 \strokec6 >\cf0 \strokec5 Wherever Needed Most\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 select\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs font-bold text-slate-700 mb-1"\cf6 \strokec6 >\cf0 \strokec5 Availability\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-2 gap-2 text-xs"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2 p-2 border rounded-lg"\cf6 \strokec6 ><\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "checkbox"\cf6 \strokec6 >\cf0 \strokec5  Weekday Mornings\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2 p-2 border rounded-lg"\cf6 \strokec6 ><\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "checkbox"\cf6 \strokec6 >\cf0 \strokec5  Weekday Afternoons\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2 p-2 border rounded-lg"\cf6 \strokec6 ><\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "checkbox"\cf6 \strokec6 >\cf0 \strokec5  Saturday Hours\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex items-center gap-2 p-2 border rounded-lg"\cf6 \strokec6 ><\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "checkbox"\cf6 \strokec6 >\cf0 \strokec5  Special Events\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "submit"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full bg-brandBlue-600 hover:bg-brandBlue-700 text-white font-bold py-3 rounded-xl shadow transition-colors"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           Submit Volunteer Application\cb1 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 form\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3   \cf9 \strokec9 <!-- MODAL 3: NOMINATE STUDENT MODAL -->\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "nominateModal"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border border-slate-100 max-h-[90vh] overflow-y-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cb1 \
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "closeNominateModal()"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute top-4 right-4 text-slate-400 hover:text-slate-600 text-xl p-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-xmark"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-center mb-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-12 h-12 rounded-full bg-brandGreen-50 text-brandGreen-600 flex items-center justify-center mx-auto text-xl mb-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 i\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fa-solid fa-user-graduate"\cf6 \strokec6 ></\cf7 \strokec7 i\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 h3\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-2xl font-bold text-brandBlue-600"\cf6 \strokec6 >\cf0 \strokec5 Nominate a Student\cf6 \strokec6 </\cf7 \strokec7 h3\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-xs text-slate-500 mt-1"\cf6 \strokec6 >\cf0 \strokec5 For High School Counselors, Teachers, & Community Liaisons\cf6 \strokec6 </\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3       \cf6 \strokec6 <\cf7 \strokec7 form\cf0 \strokec5  \cf4 \strokec4 onsubmit\cf6 \strokec6 =\cf8 \strokec8 "handleNominateSubmit(event)"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "space-y-4 text-sm"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs font-bold text-slate-700 mb-1"\cf6 \strokec6 >\cf0 \strokec5 Student First Name or Initial\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "text"\cf0 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf8 \strokec8 "e.g. Jordan M."\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brandGreen-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-2 gap-3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs font-bold text-slate-700 mb-1"\cf6 \strokec6 >\cf0 \strokec5 School Name\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "text"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brandGreen-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs font-bold text-slate-700 mb-1"\cf6 \strokec6 >\cf0 \strokec5 Grade Level\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 select\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brandGreen-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \strokec5 10th Grade\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \strokec5 11th Grade\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3               \cf6 \strokec6 <\cf7 \strokec7 option\cf0 \strokec5  \cf4 \strokec4 selected\cf6 \strokec6 >\cf0 \strokec5 12th Grade (Senior)\cf6 \strokec6 </\cf7 \strokec7 option\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 select\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs font-bold text-slate-700 mb-1"\cf6 \strokec6 >\cf0 \strokec5 Nominator/Counselor Email\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 input\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "email"\cf0 \strokec5  \cf4 \strokec4 required\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brandGreen-500 focus:outline-none"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 label\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block text-xs font-bold text-slate-700 mb-1"\cf6 \strokec6 >\cf0 \strokec5 Needs Overview (Interview, Graduation, Career Fair)\cf6 \strokec6 </\cf7 \strokec7 label\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           \cf6 \strokec6 <\cf7 \strokec7 textarea\cf0 \strokec5  \cf4 \strokec4 rows\cf6 \strokec6 =\cf8 \strokec8 "3"\cf0 \strokec5  \cf4 \strokec4 placeholder\cf6 \strokec6 =\cf8 \strokec8 "Briefly describe upcoming interview or dress requirements..."\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full px-3 py-2 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brandGreen-500 focus:outline-none"\cf6 \strokec6 ></\cf7 \strokec7 textarea\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf8 \strokec8 "submit"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-full bg-brandGreen-600 hover:bg-brandGreen-700 text-white font-bold py-3 rounded-xl shadow transition-colors"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3           Submit Student Referral\cb1 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3       \cf6 \strokec6 </\cf7 \strokec7 form\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3   \cf9 \strokec9 <!-- TOAST NOTIFICATION CONTAINER -->\cf0 \cb1 \strokec5 \
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "toastContainer"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fixed bottom-5 right-5 z-50 flex flex-col gap-2 pointer-events-none"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3   \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf9 \strokec9 // Tab Switch Logic\cf0 \cb1 \strokec5 \
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  switchTab(tabName) \{\cb1 \
+\cb3       document.querySelectorAll(\cf11 \strokec11 '.tab-content'\cf0 \strokec5 ).forEach(el => el.classList.add(\cf11 \strokec11 'hidden'\cf0 \strokec5 ));\cb1 \
+\cb3       document.getElementById(\cf11 \strokec11 'tab-'\cf0 \strokec5  + tabName).classList.remove(\cf11 \strokec11 'hidden'\cf0 \strokec5 );\cb1 \
+\
+\cb3       \cf8 \strokec8 const\cf0 \strokec5  tabs = [\cf11 \strokec11 'donate'\cf0 \strokec5 , \cf11 \strokec11 'volunteer'\cf0 \strokec5 , \cf11 \strokec11 'partner'\cf0 \strokec5 ];\cb1 \
+\cb3       tabs.forEach(t => \{\cb1 \
+\cb3         \cf8 \strokec8 const\cf0 \strokec5  btn = document.getElementById(\cf11 \strokec11 `tab-\cf0 \strokec5 $\{t\}\cf11 \strokec11 -btn`\cf0 \strokec5 );\cb1 \
+\cb3         \cf8 \strokec8 if\cf0 \strokec5  (t === tabName) \{\cb1 \
+\cb3           btn.className = \cf11 \strokec11 "flex-1 py-3 px-4 rounded-xl font-bold text-sm transition-all duration-200 bg-white text-brandBlue-600 shadow-sm"\cf0 \strokec5 ;\cb1 \
+\cb3         \} \cf8 \strokec8 else\cf0 \strokec5  \{\cb1 \
+\cb3           btn.className = \cf11 \strokec11 "flex-1 py-3 px-4 rounded-xl font-bold text-sm transition-all duration-200 text-slate-600 hover:text-brandBlue-600"\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3       \});\cb1 \
+\cb3     \}\cb1 \
+\
+\cb3     \cf9 \strokec9 // Modal Control Functions\cf0 \cb1 \strokec5 \
+\cb3     \cf8 \strokec8 let\cf0 \strokec5  selectedAmount = \cf10 \strokec10 50\cf0 \strokec5 ;\cb1 \
+\
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  openDonationModal(amount) \{\cb1 \
+\cb3       \cf8 \strokec8 if\cf0 \strokec5  (amount) selectModalAmount(amount);\cb1 \
+\cb3       document.getElementById(\cf11 \strokec11 'donationModal'\cf0 \strokec5 ).classList.remove(\cf11 \strokec11 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3     \}\cb1 \
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  closeDonationModal() \{\cb1 \
+\cb3       document.getElementById(\cf11 \strokec11 'donationModal'\cf0 \strokec5 ).classList.add(\cf11 \strokec11 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3     \}\cb1 \
+\
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  selectModalAmount(amt) \{\cb1 \
+\cb3       selectedAmount = amt;\cb1 \
+\cb3       document.querySelectorAll(\cf11 \strokec11 '.amt-btn'\cf0 \strokec5 ).forEach(btn => \{\cb1 \
+\cb3         btn.className = \cf11 \strokec11 "amt-btn border-2 border-slate-200 font-bold py-2 rounded-xl text-slate-700 hover:border-brandGreen-500 transition-all text-sm"\cf0 \strokec5 ;\cb1 \
+\cb3       \});\cb1 \
+\cb3       \cf8 \strokec8 const\cf0 \strokec5  targetBtn = document.getElementById(\cf11 \strokec11 `modal-amt-\cf0 \strokec5 $\{amt\}\cf11 \strokec11 `\cf0 \strokec5 );\cb1 \
+\cb3       \cf8 \strokec8 if\cf0 \strokec5  (targetBtn) \{\cb1 \
+\cb3         targetBtn.className = \cf11 \strokec11 "amt-btn border-2 border-brandGreen-600 bg-brandGreen-50 font-bold py-2 rounded-xl text-brandGreen-700 transition-all text-sm"\cf0 \strokec5 ;\cb1 \
+\cb3       \}\cb1 \
+\
+\cb3       \cf8 \strokec8 const\cf0 \strokec5  impactText = document.getElementById(\cf11 \strokec11 'impactText'\cf0 \strokec5 );\cb1 \
+\cb3       \cf8 \strokec8 if\cf0 \strokec5  (amt === \cf10 \strokec10 25\cf0 \strokec5 ) \{\cb1 \
+\cb3         impactText.innerText = \cf11 \strokec11 "Your $25 gift provides 2 complete seasonal outfits for a school student."\cf0 \strokec5 ;\cb1 \
+\cb3       \} \cf8 \strokec8 else\cf0 \strokec5  \cf8 \strokec8 if\cf0 \strokec5  (amt === \cf10 \strokec10 50\cf0 \strokec5 ) \{\cb1 \
+\cb3         impactText.innerText = \cf11 \strokec11 "Your $50 gift sponsors 1 High School student with complete interview attire & shoes!"\cf0 \strokec5 ;\cb1 \
+\cb3       \} \cf8 \strokec8 else\cf0 \strokec5  \cf8 \strokec8 if\cf0 \strokec5  (amt === \cf10 \strokec10 100\cf0 \strokec5 ) \{\cb1 \
+\cb3         impactText.innerText = \cf11 \strokec11 "Your $100 gift provides emergency wardrobe bundles for 3 families in transition."\cf0 \strokec5 ;\cb1 \
+\cb3       \} \cf8 \strokec8 else\cf0 \strokec5  \cf8 \strokec8 if\cf0 \strokec5  (amt === \cf10 \strokec10 250\cf0 \strokec5 ) \{\cb1 \
+\cb3         impactText.innerText = \cf11 \strokec11 "Your $250 gift sponsors a full school pop-up closet & styling drive!"\cf0 \strokec5 ;\cb1 \
+\cb3       \}\cb1 \
+\cb3     \}\cb1 \
+\
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  setFrequency(type) \{\cb1 \
+\cb3       \cf8 \strokec8 const\cf0 \strokec5  btnOnce = document.getElementById(\cf11 \strokec11 'freq-once'\cf0 \strokec5 );\cb1 \
+\cb3       \cf8 \strokec8 const\cf0 \strokec5  btnMonthly = document.getElementById(\cf11 \strokec11 'freq-monthly'\cf0 \strokec5 );\cb1 \
+\cb3       \cf8 \strokec8 if\cf0 \strokec5  (type === \cf11 \strokec11 'once'\cf0 \strokec5 ) \{\cb1 \
+\cb3         btnOnce.className = \cf11 \strokec11 "flex-1 py-2 text-xs font-bold rounded-lg bg-white text-brandBlue-600 shadow-sm"\cf0 \strokec5 ;\cb1 \
+\cb3         btnMonthly.className = \cf11 \strokec11 "flex-1 py-2 text-xs font-bold rounded-lg text-slate-600"\cf0 \strokec5 ;\cb1 \
+\cb3       \} \cf8 \strokec8 else\cf0 \strokec5  \{\cb1 \
+\cb3         btnMonthly.className = \cf11 \strokec11 "flex-1 py-2 text-xs font-bold rounded-lg bg-white text-brandBlue-600 shadow-sm"\cf0 \strokec5 ;\cb1 \
+\cb3         btnOnce.className = \cf11 \strokec11 "flex-1 py-2 text-xs font-bold rounded-lg text-slate-600"\cf0 \strokec5 ;\cb1 \
+\cb3       \}\cb1 \
+\cb3     \}\cb1 \
+\
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  openVolunteerModal() \{\cb1 \
+\cb3       document.getElementById(\cf11 \strokec11 'volunteerModal'\cf0 \strokec5 ).classList.remove(\cf11 \strokec11 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3     \}\cb1 \
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  closeVolunteerModal() \{\cb1 \
+\cb3       document.getElementById(\cf11 \strokec11 'volunteerModal'\cf0 \strokec5 ).classList.add(\cf11 \strokec11 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3     \}\cb1 \
+\
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  openNominateModal() \{\cb1 \
+\cb3       document.getElementById(\cf11 \strokec11 'nominateModal'\cf0 \strokec5 ).classList.remove(\cf11 \strokec11 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3     \}\cb1 \
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  closeNominateModal() \{\cb1 \
+\cb3       document.getElementById(\cf11 \strokec11 'nominateModal'\cf0 \strokec5 ).classList.add(\cf11 \strokec11 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3     \}\cb1 \
+\
+\cb3     \cf9 \strokec9 // Toast Notification Handler\cf0 \cb1 \strokec5 \
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  showToast(message, type = \cf11 \strokec11 'success'\cf0 \strokec5 ) \{\cb1 \
+\cb3       \cf8 \strokec8 const\cf0 \strokec5  container = document.getElementById(\cf11 \strokec11 'toastContainer'\cf0 \strokec5 );\cb1 \
+\cb3       \cf8 \strokec8 const\cf0 \strokec5  toast = document.createElement(\cf11 \strokec11 'div'\cf0 \strokec5 );\cb1 \
+\cb3       toast.className = \cf11 \strokec11 `pointer-events-auto flex items-center gap-3 px-5 py-4 rounded-2xl shadow-xl text-white font-medium text-sm transition-all transform translate-y-4 opacity-0 \cf0 \strokec5 $\{\cb1 \
+\cb3         type === \cf11 \strokec11 'success'\cf0 \strokec5  ? \cf11 \strokec11 'bg-brandGreen-600'\cf0 \strokec5  : \cf11 \strokec11 'bg-brandBlue-600'\cf0 \cb1 \strokec5 \
+\cb3       \}\cf11 \strokec11 `\cf0 \strokec5 ;\cb1 \
+\cb3       toast.innerHTML = \cf11 \strokec11 `<i class="fa-solid fa-circle-check text-lg"></i> <span>\cf0 \strokec5 $\{message\}\cf11 \strokec11 </span>`\cf0 \strokec5 ;\cb1 \
+\cb3       container.appendChild(toast);\cb1 \
+\
+\cb3       setTimeout(() => \{\cb1 \
+\cb3         toast.classList.remove(\cf11 \strokec11 'translate-y-4'\cf0 \strokec5 , \cf11 \strokec11 'opacity-0'\cf0 \strokec5 );\cb1 \
+\cb3       \}, \cf10 \strokec10 50\cf0 \strokec5 );\cb1 \
+\
+\cb3       setTimeout(() => \{\cb1 \
+\cb3         toast.classList.add(\cf11 \strokec11 'opacity-0'\cf0 \strokec5 , \cf11 \strokec11 'translate-y-4'\cf0 \strokec5 );\cb1 \
+\cb3         setTimeout(() => toast.remove(), \cf10 \strokec10 300\cf0 \strokec5 );\cb1 \
+\cb3       \}, \cf10 \strokec10 4000\cf0 \strokec5 );\cb1 \
+\cb3     \}\cb1 \
+\
+\cb3     \cf9 \strokec9 // Form Submission Handlers\cf0 \cb1 \strokec5 \
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  handleDonationSubmit(e) \{\cb1 \
+\cb3       e.preventDefault();\cb1 \
+\cb3       closeDonationModal();\cb1 \
+\cb3       showToast(\cf11 \strokec11 'Thank you for your generous gift to Renewed Beginnings!'\cf0 \strokec5 );\cb1 \
+\cb3     \}\cb1 \
+\
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  handleVolunteerSubmit(e) \{\cb1 \
+\cb3       e.preventDefault();\cb1 \
+\cb3       closeVolunteerModal();\cb1 \
+\cb3       showToast(\cf11 \strokec11 'Volunteer application submitted! Our team will email you shortly.'\cf0 \strokec5 );\cb1 \
+\cb3     \}\cb1 \
+\
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  handleNominateSubmit(e) \{\cb1 \
+\cb3       e.preventDefault();\cb1 \
+\cb3       closeNominateModal();\cb1 \
+\cb3       showToast(\cf11 \strokec11 'Student nomination received! We will follow up with the counselor.'\cf0 \strokec5 );\cb1 \
+\cb3     \}\cb1 \
+\
+\cb3     \cf8 \strokec8 function\cf0 \strokec5  handlePartnerSubmit(e) \{\cb1 \
+\cb3       e.preventDefault();\cb1 \
+\cb3       showToast(\cf11 \strokec11 'Partner inquiry received! Thank you for connecting with us.'\cf0 \strokec5 );\cb1 \
+\cb3       e.target.reset();\cb1 \
+\cb3     \}\cb1 \
+\
+\cb3     \cf9 \strokec9 // Mobile Menu Drawer Control\cf0 \cb1 \strokec5 \
+\cb3     \cf8 \strokec8 const\cf0 \strokec5  mobileBtn = document.getElementById(\cf11 \strokec11 'mobileMenuBtn'\cf0 \strokec5 );\cb1 \
+\cb3     \cf8 \strokec8 const\cf0 \strokec5  mobileDrawer = document.getElementById(\cf11 \strokec11 'mobileDrawer'\cf0 \strokec5 );\cb1 \
+\cb3     \cf8 \strokec8 const\cf0 \strokec5  closeDrawerBtn = document.getElementById(\cf11 \strokec11 'closeMobileDrawer'\cf0 \strokec5 );\cb1 \
+\
+\cb3     \cf8 \strokec8 if\cf0 \strokec5  (mobileBtn && mobileDrawer) \{\cb1 \
+\cb3       mobileBtn.addEventListener(\cf11 \strokec11 'click'\cf0 \strokec5 , () => mobileDrawer.classList.remove(\cf11 \strokec11 'hidden'\cf0 \strokec5 ));\cb1 \
+\cb3       closeDrawerBtn.addEventListener(\cf11 \strokec11 'click'\cf0 \strokec5 , () => mobileDrawer.classList.add(\cf11 \strokec11 'hidden'\cf0 \strokec5 ));\cb1 \
+\cb3       \cb1 \
+\cb3       document.querySelectorAll(\cf11 \strokec11 '.mobile-nav-link'\cf0 \strokec5 ).forEach(link => \{\cb1 \
+\cb3         link.addEventListener(\cf11 \strokec11 'click'\cf0 \strokec5 , () => mobileDrawer.classList.add(\cf11 \strokec11 'hidden'\cf0 \strokec5 ));\cb1 \
+\cb3       \});\cb1 \
+\cb3     \}\cb1 \
+\cb3   \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 body\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 html\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+}
